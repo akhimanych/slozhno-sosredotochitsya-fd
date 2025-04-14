@@ -1,4 +1,20 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #ff0070;
+  --main-bg-color: #000028;
+  --menu-list-color: #ff0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --main-text-color: #f1b2ce;
+  --nav-color-hover: rgb(255 0 112 / 0.4);
+  --main-heading-color: #ff0070;
+  --section-heading-color: #000028;
+  --logo-color: #db00ff; 
+  --logo-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --space-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --content-spacing: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
