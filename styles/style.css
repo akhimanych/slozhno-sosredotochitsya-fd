@@ -88,7 +88,7 @@ button.disabled {
   border-bottom: 1px solid currentColor;
 }
 
-.header__logo {
+.logo {
   font-size: var(--logo-font-size, 118px);
   font-weight: bold;
   color: var(--logo-color, #db00ff);
@@ -249,7 +249,7 @@ button.disabled {
     column-gap: 20px;
   }
 
-  .level2 {
+  .distraction {
     .content-section__title {
       grid-column: 1 / -1;
       max-width: 236px;
@@ -311,7 +311,7 @@ button.disabled {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .level2 {
+  .distraction {
     .content-section__title {
       max-width: 270px;
     }
